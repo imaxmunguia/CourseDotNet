@@ -277,6 +277,10 @@
     <Compile Include="Migrations\202010032140485_crear_tabla_producto.designer.cs">
       <DependentUpon>202010032140485_crear_tabla_producto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011010158096_Crear_tabla_clientes.cs" />
+    <Compile Include="Migrations\202011010158096_Crear_tabla_clientes.designer.cs">
+      <DependentUpon>202011010158096_Crear_tabla_clientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
@@ -334,6 +338,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010032140485_crear_tabla_producto.resx">
       <DependentUpon>202010032140485_crear_tabla_producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011010158096_Crear_tabla_clientes.resx">
+      <DependentUpon>202011010158096_Crear_tabla_clientes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

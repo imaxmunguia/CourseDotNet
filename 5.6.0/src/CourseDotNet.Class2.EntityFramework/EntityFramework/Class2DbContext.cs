@@ -4,6 +4,7 @@ using Abp.DynamicEntityParameters;
 using Abp.Zero.EntityFramework;
 using CourseDotNet.Class2.Authorization.Roles;
 using CourseDotNet.Class2.Authorization.Users;
+using CourseDotNet.Class2.Features.Clientes;
 using CourseDotNet.Class2.Features.Productos;
 using CourseDotNet.Class2.MultiTenancy;
 
@@ -13,6 +14,8 @@ namespace CourseDotNet.Class2.EntityFramework
     {
         //TODO: Define an IDbSet for your Entities...
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not

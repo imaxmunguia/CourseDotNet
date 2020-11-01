@@ -229,6 +229,7 @@
     <Compile Include="Configuration\AppSettingNames.cs" />
     <Compile Include="Configuration\AppSettingProvider.cs" />
     <Compile Include="Editions\EditionManager.cs" />
+    <Compile Include="Features\Clientes\Cliente.cs" />
     <Compile Include="Features\FeatureValueStore.cs" />
     <Compile Include="Features\Productos\Input\ProductoCreateInput.cs" />
     <Compile Include="Features\Productos\Input\ProductoDeleteInput.cs" />
