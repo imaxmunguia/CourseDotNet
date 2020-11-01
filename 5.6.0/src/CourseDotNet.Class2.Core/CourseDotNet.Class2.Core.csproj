@@ -38,11 +38,20 @@
     <Reference Include="Abp, Version=5.10.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Abp.5.10.1\lib\netstandard2.0\Abp.dll</HintPath>
     </Reference>
+    <Reference Include="Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Abp.AutoMapper.5.10.1\lib\netstandard2.0\Abp.AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="Abp.Zero, Version=5.10.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Abp.Zero.5.10.1\lib\net461\Abp.Zero.dll</HintPath>
     </Reference>
     <Reference Include="Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Abp.Zero.Common.5.10.1\lib\netstandard2.0\Abp.Zero.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.9.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Collection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=e57c3f0a3d6646db, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.Collection.6.0.0\lib\net461\AutoMapper.Collection.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>..\packages\Castle.Core.4.4.1\lib\net45\Castle.Core.dll</HintPath>
@@ -221,6 +230,12 @@
     <Compile Include="Configuration\AppSettingProvider.cs" />
     <Compile Include="Editions\EditionManager.cs" />
     <Compile Include="Features\FeatureValueStore.cs" />
+    <Compile Include="Features\Productos\Input\ProductoCreateInput.cs" />
+    <Compile Include="Features\Productos\Input\ProductoDeleteInput.cs" />
+    <Compile Include="Features\Productos\Input\ProductoGetAllInput.cs" />
+    <Compile Include="Features\Productos\Input\ProductoGetInput.cs" />
+    <Compile Include="Features\Productos\Input\ProductoUpdateInput.cs" />
+    <Compile Include="Features\Productos\Producto.cs" />
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

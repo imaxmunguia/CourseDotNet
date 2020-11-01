@@ -233,6 +233,9 @@
     <Compile Include="Configuration\IConfigurationAppService.cs" />
     <Compile Include="Configuration\Ui\UiThemeInfo.cs" />
     <Compile Include="Configuration\Ui\UiThemes.cs" />
+    <Compile Include="Features\Productos\Dto\ProductoDto.cs" />
+    <Compile Include="Features\Productos\IProductoAppService.cs" />
+    <Compile Include="Features\Productos\ProductoAppService.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantDto.cs" />
     <Compile Include="MultiTenancy\Dto\EditTenantDto.cs" />
     <Compile Include="MultiTenancy\Dto\TenantDto.cs" />
